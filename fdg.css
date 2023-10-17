@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Dancing+Script&family=Kenia&display=swap');
+
+#t1{
+    width: 100%;
+    height: 170px;
+    background-color:rgb(37, 12, 4);
+    background-image: url(./mbg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: -200px;
+    margin-left: -8px;
+    position:fixed;
+    
+}
+body{
+    flex-wrap: wrap;
+   background: linear-gradient(45 deg,rgb(149, 72, 72),rgb(25, 20, 20));
+    
+}
+h1{
+    text-align:center;
+    color:rgb(248, 239, 239);
+    padding-top: 30px; 
+    font-style: 'Dancing Script', cursive;
+}
+h2{
+    text-align: center;
+    color: rgb(176, 164, 164);
+    font-style: oblique;
+    
+}
+.t2{
+    
+    margin-top: -50px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+button{
+    background-color: rgb(156, 153, 148);
+    color: black;
+    border: white;
+    border-radius: 5px;
+    margin-top: 16px;
+    margin-left: 5px;
+    flex-wrap: wrap;
+}
+button:hover{
+    background-color: black;
+    color:orange;
+}
+#b1{
+    margin-left: 1050px;
+    margin-top: -30px;
+    background-color: rgb(255, 252, 247);
+    border-color: white;
+    color: black;
+    border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    }
+    .c{
+        width: 200px;
+        height: 300px;
+        margin-top: 20px;
+        background-color: white;
+        border-radius: 5px;
+    }
+    .c:hover{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    }
+    .d1{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 100%;
+        margin-top: 50px;
+        
+    }
+    P{
+        text-align: center;
+        color: black;
+        padding-top:13px
+    }
+    img{
+        width: 100%;
+        height: 80%;border-radius: 5px;
+    
+    
+    }
+    h4{
+        text-align: center;
+        margin-top: -1px;
+    }
+    
+    .b4{
+        text-align: center;
+        margin-top: -35px;
+    }
+    .b5{
+        text-align: center;
+        margin-top: -10px;
+        
+    }
+    p{
+        font-size: 1rem;
+        color: black;
+        
+    }
+
+#g1{
+    margin-top: 200px;
+}
+.d2{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 50px;
+
+}
+#f1{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(35, 17, 9);
+    margin-top: 10px;
+}
+
+
+
+@media(max-width:1200px){
+    h1{
+        font-size: larger;
+    }
+    h2{
+        font-size: larger;
+    
+     }
+     .t2{
+        margin-top: -8px;
+    
+     }
+     .c{
+        width: 250px;
+     }
+     .d2{
+        margin-top: -3px;
+     }
+     body{
+        background-size: cover;
+     }
+}  
